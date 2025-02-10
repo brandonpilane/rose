@@ -1,0 +1,20 @@
+var typed = new Typed("#credits", {
+  strings: [
+    "<i>By</i> Brandon",
+    "<i>De</i> Brandon",
+    "<i>Por</i> Brand<i>ão</i>",
+    "<i>Deur</i> Brandon",
+    "<i>بقلم براندون</i>",
+    "<i>作者: </i>Brandon",
+    "<i>Door</i> Brandon",
+    "<i>Di</i> Brandon",
+    "<i>Брэндон</i>",
+    "<i>Imeandikwa na</i> Brandon",
+    "<i>Ibhalwe ngu</i>Brandon",
+  ],
+  typeSpeed: 150,
+  loop: true,
+  showCursor: false,
+  contentType: "html",
+  loopCount: Infinity,
+});
